@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def main(request):
-    return render(request, 'admin/main.html')
+def product(request):
+    return render(request, 'admin/product.html')
