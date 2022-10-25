@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'webview'
+    'rest_framework',
+    'cfrontweb', 
+    'cadmin', 
+    'crawler'
 ]
 
 MIDDLEWARE = [

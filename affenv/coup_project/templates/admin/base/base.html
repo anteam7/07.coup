@@ -1,0 +1,21 @@
+<!DOCTYPE html>{% load static %}
+<html>
+{% include 'admin/base/head.html' %}
+
+<body>
+    {% include 'admin/base/header.html' %}
+
+    <!-- body -->
+    <div id="cl-wrapper" class="fixed-menu">
+        {% include 'admin/base/navmenu.html' %}
+        <!-- content -->
+        {% block content %} {% endblock %}
+        <!-- //content -->
+    </div>
+    <!-- //body -->
+
+    <!-- footer -->
+    {% include 'admin/base/footer.html' %}
+</body>
+
+</html>

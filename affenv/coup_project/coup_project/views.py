@@ -19,4 +19,7 @@ def path(request):
     if page == "게이밍모니터최저가":
         html_path = "monitor.html"
 
-    return render(request, html_path, {'page_data':page})        
+    return render(request, html_path, {'page_data':page})       
+
+def front(request):
+    return render(request, 'front/category_content.html')
