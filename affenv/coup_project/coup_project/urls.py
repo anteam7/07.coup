@@ -22,7 +22,7 @@ urlpatterns = [
     path('main',views.main),
     path('category',views.category),
     path('path',views.path),    
-#    path('front', views.front),
+    path('front', views.front),
 #    path('admin/', admin.site.urls),
     path('admin/', include('cadmin.urls')),
     path('cfront/', include('cfrontweb.urls')),

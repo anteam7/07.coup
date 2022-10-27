@@ -22,4 +22,4 @@ def path(request):
     return render(request, html_path, {'page_data':page})       
 
 def front(request):
-    return render(request, 'front/category_content.html')
+    return render(request, 'front/webtest.html')

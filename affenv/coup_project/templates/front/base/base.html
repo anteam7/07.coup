@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include 'front/base/head.html' %}
+</head>
+
+<body>
+    {% include 'front/base/header.html' %}
+
+    <!-- body -->
+    <div id="cl-wrapper" class="fixed-menu">
+
+        <!-- content -->
+        {% block content %} {% endblock %}
+        <!-- //content -->
+    </div>
+    <!-- //body -->
+
+    <!-- footer -->
+    {% include 'front/base/footer.html' %}
+</body>
+
+</html>
